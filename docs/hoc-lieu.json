@@ -1,0 +1,2233 @@
+{
+  "version": 1,
+  "description": "Ngữ liệu tiếng Việt tự biên soạn cho Byte Odyssey, dành cho học sinh lớp 2.",
+  "questions": [
+    {
+      "id": "letters-1",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_á cây",
+      "target": "lá cây",
+      "correct": "l",
+      "options": [
+        "l",
+        "n",
+        "s"
+      ],
+      "illustration": "🍃",
+      "hint": "Lá cây bắt đầu bằng chữ l.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-2",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_ón lá",
+      "target": "nón lá",
+      "correct": "n",
+      "options": [
+        "n",
+        "l",
+        "m"
+      ],
+      "illustration": "👒",
+      "hint": "Chiếc nón bắt đầu bằng chữ n.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-3",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_ớp học",
+      "target": "lớp học",
+      "correct": "l",
+      "options": [
+        "l",
+        "n",
+        "s"
+      ],
+      "illustration": "🏫",
+      "hint": "Lớp học bắt đầu bằng chữ l.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-4",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_ọn núi",
+      "target": "ngọn núi",
+      "correct": "ng",
+      "options": [
+        "ng",
+        "ngh",
+        "g"
+      ],
+      "illustration": "⛰️",
+      "hint": "Ng đi với nguyên âm o trong tiếng ngọn.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-5",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_ông suối",
+      "target": "sông suối",
+      "correct": "s",
+      "options": [
+        "s",
+        "x",
+        "ch"
+      ],
+      "illustration": "🏞️",
+      "hint": "Sông được viết với s.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-6",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_e đạp",
+      "target": "xe đạp",
+      "correct": "x",
+      "options": [
+        "x",
+        "s",
+        "ch"
+      ],
+      "illustration": "🚲",
+      "hint": "Xe được viết với x.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-7",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "con _im",
+      "target": "con chim",
+      "correct": "ch",
+      "options": [
+        "ch",
+        "tr",
+        "th"
+      ],
+      "illustration": "🐦",
+      "hint": "Chim bắt đầu bằng ch.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-8",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "con _âu",
+      "target": "con trâu",
+      "correct": "tr",
+      "options": [
+        "tr",
+        "ch",
+        "th"
+      ],
+      "illustration": "🐃",
+      "hint": "Trâu bắt đầu bằng tr.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-9",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_ổ rau",
+      "target": "rổ rau",
+      "correct": "r",
+      "options": [
+        "r",
+        "d",
+        "gi"
+      ],
+      "illustration": "🥬",
+      "hint": "Rổ bắt đầu bằng r.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-10",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "cái _ỏ",
+      "target": "cái giỏ",
+      "correct": "gi",
+      "options": [
+        "gi",
+        "d",
+        "r"
+      ],
+      "illustration": "🧺",
+      "hint": "Giỏ bắt đầu bằng gi.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-11",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "đôi _ép",
+      "target": "đôi dép",
+      "correct": "d",
+      "options": [
+        "d",
+        "gi",
+        "r"
+      ],
+      "illustration": "🩴",
+      "hint": "Dép được viết với d.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-12",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_á vàng",
+      "target": "cá vàng",
+      "correct": "c",
+      "options": [
+        "c",
+        "k",
+        "q"
+      ],
+      "illustration": "🐠",
+      "hint": "Cá được viết với c.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-13",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "con _iến",
+      "target": "con kiến",
+      "correct": "k",
+      "options": [
+        "k",
+        "c",
+        "q"
+      ],
+      "illustration": "🐜",
+      "hint": "K thường đi trước i, e, ê.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-14",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_à con",
+      "target": "gà con",
+      "correct": "g",
+      "options": [
+        "g",
+        "gh",
+        "ng"
+      ],
+      "illustration": "🐥",
+      "hint": "Gà bắt đầu bằng g, không có h.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-15",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_ế gỗ",
+      "target": "ghế gỗ",
+      "correct": "gh",
+      "options": [
+        "gh",
+        "g",
+        "ngh"
+      ],
+      "illustration": "🪑",
+      "hint": "Gh thường đi trước e, ê, i.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-16",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_ôi nhà",
+      "target": "ngôi nhà",
+      "correct": "ng",
+      "options": [
+        "ng",
+        "ngh",
+        "g"
+      ],
+      "illustration": "🏠",
+      "hint": "Ngôi bắt đầu bằng ng.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-17",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "con _é",
+      "target": "con nghé",
+      "correct": "ngh",
+      "options": [
+        "ngh",
+        "ng",
+        "gh"
+      ],
+      "illustration": "🐃",
+      "hint": "Ngh đi trước e, ê, i.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-18",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_uả cam",
+      "target": "quả cam",
+      "correct": "q",
+      "options": [
+        "q",
+        "c",
+        "k"
+      ],
+      "illustration": "🍊",
+      "hint": "Chữ q đi cùng u để viết quả.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-19",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "mùa _u",
+      "target": "mùa thu",
+      "correct": "th",
+      "options": [
+        "th",
+        "t",
+        "ph"
+      ],
+      "illustration": "🍂",
+      "hint": "Thu bắt đầu bằng th.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-20",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_ổi sáo",
+      "target": "thổi sáo",
+      "correct": "th",
+      "options": [
+        "th",
+        "t",
+        "kh"
+      ],
+      "illustration": "🎶",
+      "hint": "Thổi bắt đầu bằng th.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-21",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_ượng vĩ",
+      "target": "phượng vĩ",
+      "correct": "ph",
+      "options": [
+        "ph",
+        "p",
+        "th"
+      ],
+      "illustration": "🌺",
+      "hint": "Phượng bắt đầu bằng ph.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-22",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_ông hồng",
+      "target": "bông hồng",
+      "correct": "b",
+      "options": [
+        "b",
+        "v",
+        "p"
+      ],
+      "illustration": "🌹",
+      "hint": "Bông bắt đầu bằng b.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-23",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_ườn hoa",
+      "target": "vườn hoa",
+      "correct": "v",
+      "options": [
+        "v",
+        "b",
+        "d"
+      ],
+      "illustration": "🌷",
+      "hint": "Vườn bắt đầu bằng v.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-24",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_ặt trời",
+      "target": "mặt trời",
+      "correct": "m",
+      "options": [
+        "m",
+        "n",
+        "b"
+      ],
+      "illustration": "☀️",
+      "hint": "Mặt bắt đầu bằng m.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-25",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_ạn nhỏ",
+      "target": "bạn nhỏ",
+      "correct": "b",
+      "options": [
+        "b",
+        "v",
+        "p"
+      ],
+      "illustration": "🧒",
+      "hint": "Bạn bắt đầu bằng b.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-26",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "quả _ế",
+      "target": "quả khế",
+      "correct": "kh",
+      "options": [
+        "kh",
+        "k",
+        "gh"
+      ],
+      "illustration": "⭐",
+      "hint": "Khế bắt đầu bằng kh.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-27",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_óm tre",
+      "target": "khóm tre",
+      "correct": "kh",
+      "options": [
+        "kh",
+        "ch",
+        "th"
+      ],
+      "illustration": "🎋",
+      "hint": "Khóm bắt đầu bằng kh.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-28",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_ành hoa",
+      "target": "nhành hoa",
+      "correct": "nh",
+      "options": [
+        "nh",
+        "n",
+        "h"
+      ],
+      "illustration": "🌼",
+      "hint": "Nhành bắt đầu bằng nh.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-29",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_ăm chỉ",
+      "target": "chăm chỉ",
+      "correct": "ch",
+      "options": [
+        "ch",
+        "tr",
+        "th"
+      ],
+      "illustration": "📚",
+      "hint": "Chăm được viết với ch.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-30",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_ực nhật",
+      "target": "trực nhật",
+      "correct": "tr",
+      "options": [
+        "tr",
+        "ch",
+        "th"
+      ],
+      "illustration": "🧹",
+      "hint": "Trực được viết với tr.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-31",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_ếp hàng",
+      "target": "xếp hàng",
+      "correct": "x",
+      "options": [
+        "x",
+        "s",
+        "ch"
+      ],
+      "illustration": "🧍",
+      "hint": "Xếp được viết với x.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-32",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_ạch sẽ",
+      "target": "sạch sẽ",
+      "correct": "s",
+      "options": [
+        "s",
+        "x",
+        "ch"
+      ],
+      "illustration": "🧼",
+      "hint": "Sạch được viết với s.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-33",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "đàn _ịt",
+      "target": "đàn vịt",
+      "correct": "v",
+      "options": [
+        "v",
+        "b",
+        "d"
+      ],
+      "illustration": "🦆",
+      "hint": "Vịt bắt đầu bằng v.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-34",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "mẹ _iền",
+      "target": "mẹ hiền",
+      "correct": "h",
+      "options": [
+        "h",
+        "kh",
+        "nh"
+      ],
+      "illustration": "💛",
+      "hint": "Hiền bắt đầu bằng h.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-35",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "con _ươu",
+      "target": "con hươu",
+      "correct": "h",
+      "options": [
+        "h",
+        "kh",
+        "ph"
+      ],
+      "illustration": "🦌",
+      "hint": "Hươu bắt đầu bằng h.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-36",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "quả _áo",
+      "target": "quả táo",
+      "correct": "t",
+      "options": [
+        "t",
+        "th",
+        "tr"
+      ],
+      "illustration": "🍎",
+      "hint": "Táo bắt đầu bằng t.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-37",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "cánh _iều",
+      "target": "cánh diều",
+      "correct": "d",
+      "options": [
+        "d",
+        "gi",
+        "r"
+      ],
+      "illustration": "🪁",
+      "hint": "Diều được viết với d.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-38",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_àn tay",
+      "target": "bàn tay",
+      "correct": "b",
+      "options": [
+        "b",
+        "v",
+        "d"
+      ],
+      "illustration": "🖐️",
+      "hint": "Bàn bắt đầu bằng b.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-39",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "nụ _ười",
+      "target": "nụ cười",
+      "correct": "c",
+      "options": [
+        "c",
+        "k",
+        "g"
+      ],
+      "illustration": "😊",
+      "hint": "Cười được viết với c.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "letters-40",
+      "group": "letters",
+      "type": "choice",
+      "prompt": "Chọn chữ còn thiếu theo cụm từ và hình gợi ý.",
+      "stem": "_ỉ hè",
+      "target": "nghỉ hè",
+      "correct": "ngh",
+      "options": [
+        "ngh",
+        "ng",
+        "gh"
+      ],
+      "illustration": "🏖️",
+      "hint": "Ngh đi trước i trong tiếng nghỉ.",
+      "topic": "Chữ và phụ âm"
+    },
+    {
+      "id": "rhyme-1",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn phần còn thiếu để viết tiếng “mèo”.",
+      "stem": "m + ?",
+      "target": "mèo",
+      "correct": "èo",
+      "options": [
+        "èo",
+        "eo",
+        "âu"
+      ],
+      "illustration": "🐱",
+      "hint": "m ghép với èo thành mèo.",
+      "topic": "Ghép vần"
+    },
+    {
+      "id": "rhyme-2",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn phần còn thiếu để viết tiếng “chó”.",
+      "stem": "ch + ?",
+      "target": "chó",
+      "correct": "ó",
+      "options": [
+        "ó",
+        "o",
+        "ỏ"
+      ],
+      "illustration": "🐶",
+      "hint": "ch ghép với ó thành chó.",
+      "topic": "Ghép vần"
+    },
+    {
+      "id": "rhyme-3",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn phần còn thiếu để viết tiếng “bướm”.",
+      "stem": "b + ?",
+      "target": "bướm",
+      "correct": "ướm",
+      "options": [
+        "ướm",
+        "ươm",
+        "ươn"
+      ],
+      "illustration": "🦋",
+      "hint": "b ghép với ướm thành bướm.",
+      "topic": "Ghép vần"
+    },
+    {
+      "id": "rhyme-4",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn phần còn thiếu để viết tiếng “cá”.",
+      "stem": "c + ?",
+      "target": "cá",
+      "correct": "á",
+      "options": [
+        "á",
+        "à",
+        "ả"
+      ],
+      "illustration": "🐟",
+      "hint": "c ghép với á thành cá.",
+      "topic": "Ghép vần"
+    },
+    {
+      "id": "rhyme-5",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn phần còn thiếu để viết tiếng “vịt”.",
+      "stem": "v + ?",
+      "target": "vịt",
+      "correct": "ịt",
+      "options": [
+        "ịt",
+        "it",
+        "ít"
+      ],
+      "illustration": "🦆",
+      "hint": "v ghép với ịt thành vịt.",
+      "topic": "Ghép vần"
+    },
+    {
+      "id": "rhyme-6",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn phần còn thiếu để viết tiếng “táo”.",
+      "stem": "t + ?",
+      "target": "táo",
+      "correct": "áo",
+      "options": [
+        "áo",
+        "ao",
+        "ào"
+      ],
+      "illustration": "🍎",
+      "hint": "t ghép với áo thành táo.",
+      "topic": "Ghép vần"
+    },
+    {
+      "id": "rhyme-7",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn phần còn thiếu để viết tiếng “chanh”.",
+      "stem": "ch + ?",
+      "target": "chanh",
+      "correct": "anh",
+      "options": [
+        "anh",
+        "ach",
+        "ang"
+      ],
+      "illustration": "🍋",
+      "hint": "ch ghép với anh thành chanh.",
+      "topic": "Ghép vần"
+    },
+    {
+      "id": "rhyme-8",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn phần còn thiếu để viết tiếng “cam”.",
+      "stem": "c + ?",
+      "target": "cam",
+      "correct": "am",
+      "options": [
+        "am",
+        "an",
+        "ang"
+      ],
+      "illustration": "🍊",
+      "hint": "c ghép với am thành cam.",
+      "topic": "Ghép vần"
+    },
+    {
+      "id": "rhyme-9",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn phần còn thiếu để viết tiếng “hoa”.",
+      "stem": "h + ?",
+      "target": "hoa",
+      "correct": "oa",
+      "options": [
+        "oa",
+        "ao",
+        "oà"
+      ],
+      "illustration": "🌼",
+      "hint": "h ghép với oa thành hoa.",
+      "topic": "Ghép vần"
+    },
+    {
+      "id": "rhyme-10",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn phần còn thiếu để viết tiếng “sách”.",
+      "stem": "s + ?",
+      "target": "sách",
+      "correct": "ách",
+      "options": [
+        "ách",
+        "ach",
+        "ánh"
+      ],
+      "illustration": "📚",
+      "hint": "s ghép với ách thành sách.",
+      "topic": "Ghép vần"
+    },
+    {
+      "id": "rhyme-11",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn phần còn thiếu để viết tiếng “bút”.",
+      "stem": "b + ?",
+      "target": "bút",
+      "correct": "út",
+      "options": [
+        "út",
+        "ut",
+        "ụt"
+      ],
+      "illustration": "✏️",
+      "hint": "b ghép với út thành bút.",
+      "topic": "Ghép vần"
+    },
+    {
+      "id": "rhyme-12",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn phần còn thiếu để viết tiếng “thước”.",
+      "stem": "th + ?",
+      "target": "thước",
+      "correct": "ước",
+      "options": [
+        "ước",
+        "ươc",
+        "ướt"
+      ],
+      "illustration": "📏",
+      "hint": "th ghép với ước thành thước.",
+      "topic": "Ghép vần"
+    },
+    {
+      "id": "rhyme-13",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn phần còn thiếu để viết tiếng “cây”.",
+      "stem": "c + ?",
+      "target": "cây",
+      "correct": "ây",
+      "options": [
+        "ây",
+        "ay",
+        "ầy"
+      ],
+      "illustration": "🌳",
+      "hint": "c ghép với ây thành cây.",
+      "topic": "Ghép vần"
+    },
+    {
+      "id": "rhyme-14",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn phần còn thiếu để viết tiếng “mưa”.",
+      "stem": "m + ?",
+      "target": "mưa",
+      "correct": "ưa",
+      "options": [
+        "ưa",
+        "ư",
+        "ươ"
+      ],
+      "illustration": "🌧️",
+      "hint": "m ghép với ưa thành mưa.",
+      "topic": "Ghép vần"
+    },
+    {
+      "id": "rhyme-15",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn phần còn thiếu để viết tiếng “nắng”.",
+      "stem": "n + ?",
+      "target": "nắng",
+      "correct": "ắng",
+      "options": [
+        "ắng",
+        "ăng",
+        "ánh"
+      ],
+      "illustration": "☀️",
+      "hint": "n ghép với ắng thành nắng.",
+      "topic": "Ghép vần"
+    },
+    {
+      "id": "rhyme-16",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn phần còn thiếu để viết tiếng “trăng”.",
+      "stem": "tr + ?",
+      "target": "trăng",
+      "correct": "ăng",
+      "options": [
+        "ăng",
+        "ang",
+        "âng"
+      ],
+      "illustration": "🌙",
+      "hint": "tr ghép với ăng thành trăng.",
+      "topic": "Ghép vần"
+    },
+    {
+      "id": "rhyme-17",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn phần còn thiếu để viết tiếng “biển”.",
+      "stem": "b + ?",
+      "target": "biển",
+      "correct": "iển",
+      "options": [
+        "iển",
+        "iên",
+        "iến"
+      ],
+      "illustration": "🌊",
+      "hint": "b ghép với iển thành biển.",
+      "topic": "Ghép vần"
+    },
+    {
+      "id": "rhyme-18",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn phần còn thiếu để viết tiếng “thuyền”.",
+      "stem": "th + ?",
+      "target": "thuyền",
+      "correct": "uyền",
+      "options": [
+        "uyền",
+        "uyên",
+        "uyến"
+      ],
+      "illustration": "⛵",
+      "hint": "th ghép với uyền thành thuyền.",
+      "topic": "Ghép vần"
+    },
+    {
+      "id": "rhyme-19",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn phần còn thiếu để viết tiếng “đèn”.",
+      "stem": "đ + ?",
+      "target": "đèn",
+      "correct": "èn",
+      "options": [
+        "èn",
+        "en",
+        "ền"
+      ],
+      "illustration": "💡",
+      "hint": "đ ghép với èn thành đèn.",
+      "topic": "Ghép vần"
+    },
+    {
+      "id": "rhyme-20",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn phần còn thiếu để viết tiếng “trống”.",
+      "stem": "tr + ?",
+      "target": "trống",
+      "correct": "ống",
+      "options": [
+        "ống",
+        "ông",
+        "ổng"
+      ],
+      "illustration": "🥁",
+      "hint": "tr ghép với ống thành trống.",
+      "topic": "Ghép vần"
+    },
+    {
+      "id": "tone-1",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn tiếng đúng để hoàn thành câu.",
+      "stem": "Em bé đang __.",
+      "target": "ngủ",
+      "correct": "ngủ",
+      "options": [
+        "ngủ",
+        "ngũ",
+        "ngụ"
+      ],
+      "illustration": "😴",
+      "hint": "Đọc cả câu với tiếng “ngủ”. Chú ý dấu thanh.",
+      "topic": "Nhận diện dấu thanh"
+    },
+    {
+      "id": "tone-2",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn tiếng đúng để hoàn thành câu.",
+      "stem": "Bé tô màu __.",
+      "target": "đỏ",
+      "correct": "đỏ",
+      "options": [
+        "đỏ",
+        "đõ",
+        "đò"
+      ],
+      "illustration": "🟥",
+      "hint": "Đọc cả câu với tiếng “đỏ”. Chú ý dấu thanh.",
+      "topic": "Nhận diện dấu thanh"
+    },
+    {
+      "id": "tone-3",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn tiếng đúng để hoàn thành câu.",
+      "stem": "Trên trời có đám __.",
+      "target": "mây",
+      "correct": "mây",
+      "options": [
+        "mây",
+        "mấy",
+        "mầy"
+      ],
+      "illustration": "☁️",
+      "hint": "Đọc cả câu với tiếng “mây”. Chú ý dấu thanh.",
+      "topic": "Nhận diện dấu thanh"
+    },
+    {
+      "id": "tone-4",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn tiếng đúng để hoàn thành câu.",
+      "stem": "Em uống một cốc __.",
+      "target": "sữa",
+      "correct": "sữa",
+      "options": [
+        "sữa",
+        "sửa",
+        "sứa"
+      ],
+      "illustration": "🥛",
+      "hint": "Đọc cả câu với tiếng “sữa”. Chú ý dấu thanh.",
+      "topic": "Nhận diện dấu thanh"
+    },
+    {
+      "id": "tone-5",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn tiếng đúng để hoàn thành câu.",
+      "stem": "Cô giáo đang __ bài.",
+      "target": "giảng",
+      "correct": "giảng",
+      "options": [
+        "giảng",
+        "giãng",
+        "giàng"
+      ],
+      "illustration": "👩‍🏫",
+      "hint": "Đọc cả câu với tiếng “giảng”. Chú ý dấu thanh.",
+      "topic": "Nhận diện dấu thanh"
+    },
+    {
+      "id": "tone-6",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn tiếng đúng để hoàn thành câu.",
+      "stem": "Mẹ mua một __ rau.",
+      "target": "mớ",
+      "correct": "mớ",
+      "options": [
+        "mớ",
+        "mờ",
+        "mở"
+      ],
+      "illustration": "🥬",
+      "hint": "Đọc cả câu với tiếng “mớ”. Chú ý dấu thanh.",
+      "topic": "Nhận diện dấu thanh"
+    },
+    {
+      "id": "tone-7",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn tiếng đúng để hoàn thành câu.",
+      "stem": "Bố mở __ sổ.",
+      "target": "cửa",
+      "correct": "cửa",
+      "options": [
+        "cửa",
+        "cữa",
+        "cứa"
+      ],
+      "illustration": "🪟",
+      "hint": "Đọc cả câu với tiếng “cửa”. Chú ý dấu thanh.",
+      "topic": "Nhận diện dấu thanh"
+    },
+    {
+      "id": "tone-8",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn tiếng đúng để hoàn thành câu.",
+      "stem": "Bông __ nở rộ.",
+      "target": "hoa",
+      "correct": "hoa",
+      "options": [
+        "hoa",
+        "hòa",
+        "hóa"
+      ],
+      "illustration": "🌼",
+      "hint": "Đọc cả câu với tiếng “hoa”. Chú ý dấu thanh.",
+      "topic": "Nhận diện dấu thanh"
+    },
+    {
+      "id": "tone-9",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn tiếng đúng để hoàn thành câu.",
+      "stem": "Em cất sách vào __.",
+      "target": "tủ",
+      "correct": "tủ",
+      "options": [
+        "tủ",
+        "tũ",
+        "tú"
+      ],
+      "illustration": "📚",
+      "hint": "Đọc cả câu với tiếng “tủ”. Chú ý dấu thanh.",
+      "topic": "Nhận diện dấu thanh"
+    },
+    {
+      "id": "tone-10",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn tiếng đúng để hoàn thành câu.",
+      "stem": "Em chăm chỉ __ bài.",
+      "target": "học",
+      "correct": "học",
+      "options": [
+        "học",
+        "hóc",
+        "hộc"
+      ],
+      "illustration": "📖",
+      "hint": "Đọc cả câu với tiếng “học”. Chú ý dấu thanh.",
+      "topic": "Nhận diện dấu thanh"
+    },
+    {
+      "id": "tone-11",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn tiếng đúng để hoàn thành câu.",
+      "stem": "Con __ đang bơi.",
+      "target": "cá",
+      "correct": "cá",
+      "options": [
+        "cá",
+        "cà",
+        "cả"
+      ],
+      "illustration": "🐟",
+      "hint": "Đọc cả câu với tiếng “cá”. Chú ý dấu thanh.",
+      "topic": "Nhận diện dấu thanh"
+    },
+    {
+      "id": "tone-12",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn tiếng đúng để hoàn thành câu.",
+      "stem": "Em bé nằm trên __.",
+      "target": "võng",
+      "correct": "võng",
+      "options": [
+        "võng",
+        "vỏng",
+        "vọng"
+      ],
+      "illustration": "😴",
+      "hint": "Đọc cả câu với tiếng “võng”. Chú ý dấu thanh.",
+      "topic": "Nhận diện dấu thanh"
+    },
+    {
+      "id": "tone-13",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn tiếng đúng để hoàn thành câu.",
+      "stem": "Mẹ đưa em đến __.",
+      "target": "trường",
+      "correct": "trường",
+      "options": [
+        "trường",
+        "trướng",
+        "trưởng"
+      ],
+      "illustration": "🏫",
+      "hint": "Đọc cả câu với tiếng “trường”. Chú ý dấu thanh.",
+      "topic": "Nhận diện dấu thanh"
+    },
+    {
+      "id": "tone-14",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn tiếng đúng để hoàn thành câu.",
+      "stem": "Em __ cô giáo.",
+      "target": "chào",
+      "correct": "chào",
+      "options": [
+        "chào",
+        "cháo",
+        "chảo"
+      ],
+      "illustration": "👋",
+      "hint": "Đọc cả câu với tiếng “chào”. Chú ý dấu thanh.",
+      "topic": "Nhận diện dấu thanh"
+    },
+    {
+      "id": "tone-15",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn tiếng đúng để hoàn thành câu.",
+      "stem": "Bà kể __ cổ tích.",
+      "target": "chuyện",
+      "correct": "chuyện",
+      "options": [
+        "chuyện",
+        "chuyển",
+        "chuyền"
+      ],
+      "illustration": "📖",
+      "hint": "Đọc cả câu với tiếng “chuyện”. Chú ý dấu thanh.",
+      "topic": "Nhận diện dấu thanh"
+    },
+    {
+      "id": "tone-16",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn tiếng đúng để hoàn thành câu.",
+      "stem": "Chúng em __ cây.",
+      "target": "tưới",
+      "correct": "tưới",
+      "options": [
+        "tưới",
+        "tười",
+        "tưởi"
+      ],
+      "illustration": "🌱",
+      "hint": "Đọc cả câu với tiếng “tưới”. Chú ý dấu thanh.",
+      "topic": "Nhận diện dấu thanh"
+    },
+    {
+      "id": "tone-17",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn tiếng đúng để hoàn thành câu.",
+      "stem": "Lớp học luôn __ sẽ.",
+      "target": "sạch",
+      "correct": "sạch",
+      "options": [
+        "sạch",
+        "sách",
+        "sánh"
+      ],
+      "illustration": "🧹",
+      "hint": "Đọc cả câu với tiếng “sạch”. Chú ý dấu thanh.",
+      "topic": "Nhận diện dấu thanh"
+    },
+    {
+      "id": "tone-18",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn tiếng đúng để hoàn thành câu.",
+      "stem": "Em __ răng mỗi sáng.",
+      "target": "đánh",
+      "correct": "đánh",
+      "options": [
+        "đánh",
+        "đành",
+        "đảnh"
+      ],
+      "illustration": "🪥",
+      "hint": "Đọc cả câu với tiếng “đánh”. Chú ý dấu thanh.",
+      "topic": "Nhận diện dấu thanh"
+    },
+    {
+      "id": "tone-19",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn tiếng đúng để hoàn thành câu.",
+      "stem": "Em __ mẹ làm việc nhà.",
+      "target": "giúp",
+      "correct": "giúp",
+      "options": [
+        "giúp",
+        "giụp",
+        "giủp"
+      ],
+      "illustration": "💛",
+      "hint": "Đọc cả câu với tiếng “giúp”. Chú ý dấu thanh.",
+      "topic": "Nhận diện dấu thanh"
+    },
+    {
+      "id": "tone-20",
+      "group": "syllables",
+      "type": "choice",
+      "prompt": "Chọn tiếng đúng để hoàn thành câu.",
+      "stem": "Bé __ đầu chào bà.",
+      "target": "cúi",
+      "correct": "cúi",
+      "options": [
+        "cúi",
+        "cùi",
+        "củi"
+      ],
+      "illustration": "🙇",
+      "hint": "Đọc cả câu với tiếng “cúi”. Chú ý dấu thanh.",
+      "topic": "Nhận diện dấu thanh"
+    },
+    {
+      "id": "word-1",
+      "group": "words",
+      "type": "choice",
+      "prompt": "Ghép hai tiếng thành từ hoặc cụm từ phù hợp.",
+      "stem": "học + ?",
+      "target": "học sinh",
+      "correct": "sinh",
+      "options": [
+        "sinh",
+        "bàn",
+        "mưa"
+      ],
+      "illustration": "🧒",
+      "hint": "học ghép với sinh thành “học sinh”.",
+      "topic": "Ghép từ"
+    },
+    {
+      "id": "word-2",
+      "group": "words",
+      "type": "choice",
+      "prompt": "Ghép hai tiếng thành từ hoặc cụm từ phù hợp.",
+      "stem": "sân + ?",
+      "target": "sân trường",
+      "correct": "trường",
+      "options": [
+        "trường",
+        "mưa",
+        "bút"
+      ],
+      "illustration": "🏫",
+      "hint": "sân ghép với trường thành “sân trường”.",
+      "topic": "Ghép từ"
+    },
+    {
+      "id": "word-3",
+      "group": "words",
+      "type": "choice",
+      "prompt": "Ghép hai tiếng thành từ hoặc cụm từ phù hợp.",
+      "stem": "gia + ?",
+      "target": "gia đình",
+      "correct": "đình",
+      "options": [
+        "đình",
+        "cây",
+        "bút"
+      ],
+      "illustration": "🏠",
+      "hint": "gia ghép với đình thành “gia đình”.",
+      "topic": "Ghép từ"
+    },
+    {
+      "id": "word-4",
+      "group": "words",
+      "type": "choice",
+      "prompt": "Ghép hai tiếng thành từ hoặc cụm từ phù hợp.",
+      "stem": "ông + ?",
+      "target": "ông bà",
+      "correct": "bà",
+      "options": [
+        "bà",
+        "áo",
+        "bút"
+      ],
+      "illustration": "👵",
+      "hint": "ông ghép với bà thành “ông bà”.",
+      "topic": "Ghép từ"
+    },
+    {
+      "id": "word-5",
+      "group": "words",
+      "type": "choice",
+      "prompt": "Ghép hai tiếng thành từ hoặc cụm từ phù hợp.",
+      "stem": "bạn + ?",
+      "target": "bạn bè",
+      "correct": "bè",
+      "options": [
+        "bè",
+        "nước",
+        "lá"
+      ],
+      "illustration": "🧒",
+      "hint": "bạn ghép với bè thành “bạn bè”.",
+      "topic": "Ghép từ"
+    },
+    {
+      "id": "word-6",
+      "group": "words",
+      "type": "choice",
+      "prompt": "Ghép hai tiếng thành từ hoặc cụm từ phù hợp.",
+      "stem": "thầy + ?",
+      "target": "thầy cô",
+      "correct": "cô",
+      "options": [
+        "cô",
+        "bánh",
+        "bút"
+      ],
+      "illustration": "👩‍🏫",
+      "hint": "thầy ghép với cô thành “thầy cô”.",
+      "topic": "Ghép từ"
+    },
+    {
+      "id": "word-7",
+      "group": "words",
+      "type": "choice",
+      "prompt": "Ghép hai tiếng thành từ hoặc cụm từ phù hợp.",
+      "stem": "bút + ?",
+      "target": "bút chì",
+      "correct": "chì",
+      "options": [
+        "chì",
+        "mây",
+        "bàn"
+      ],
+      "illustration": "✏️",
+      "hint": "bút ghép với chì thành “bút chì”.",
+      "topic": "Ghép từ"
+    },
+    {
+      "id": "word-8",
+      "group": "words",
+      "type": "choice",
+      "prompt": "Ghép hai tiếng thành từ hoặc cụm từ phù hợp.",
+      "stem": "bảng + ?",
+      "target": "bảng đen",
+      "correct": "đen",
+      "options": [
+        "đen",
+        "cơm",
+        "trăng"
+      ],
+      "illustration": "⬛",
+      "hint": "bảng ghép với đen thành “bảng đen”.",
+      "topic": "Ghép từ"
+    },
+    {
+      "id": "word-9",
+      "group": "words",
+      "type": "choice",
+      "prompt": "Ghép hai tiếng thành từ hoặc cụm từ phù hợp.",
+      "stem": "đôi + ?",
+      "target": "đôi giày",
+      "correct": "giày",
+      "options": [
+        "giày",
+        "trời",
+        "cây"
+      ],
+      "illustration": "👟",
+      "hint": "đôi ghép với giày thành “đôi giày”.",
+      "topic": "Ghép từ"
+    },
+    {
+      "id": "word-10",
+      "group": "words",
+      "type": "choice",
+      "prompt": "Ghép hai tiếng thành từ hoặc cụm từ phù hợp.",
+      "stem": "bàn + ?",
+      "target": "bàn học",
+      "correct": "học",
+      "options": [
+        "học",
+        "mưa",
+        "cười"
+      ],
+      "illustration": "🪑",
+      "hint": "bàn ghép với học thành “bàn học”.",
+      "topic": "Ghép từ"
+    },
+    {
+      "id": "word-11",
+      "group": "words",
+      "type": "choice",
+      "prompt": "Ghép hai tiếng thành từ hoặc cụm từ phù hợp.",
+      "stem": "vườn + ?",
+      "target": "vườn hoa",
+      "correct": "hoa",
+      "options": [
+        "hoa",
+        "sách",
+        "bút"
+      ],
+      "illustration": "🌷",
+      "hint": "vườn ghép với hoa thành “vườn hoa”.",
+      "topic": "Ghép từ"
+    },
+    {
+      "id": "word-12",
+      "group": "words",
+      "type": "choice",
+      "prompt": "Ghép hai tiếng thành từ hoặc cụm từ phù hợp.",
+      "stem": "cây + ?",
+      "target": "cây xanh",
+      "correct": "xanh",
+      "options": [
+        "xanh",
+        "giày",
+        "cháo"
+      ],
+      "illustration": "🌳",
+      "hint": "cây ghép với xanh thành “cây xanh”.",
+      "topic": "Ghép từ"
+    },
+    {
+      "id": "word-13",
+      "group": "words",
+      "type": "choice",
+      "prompt": "Ghép hai tiếng thành từ hoặc cụm từ phù hợp.",
+      "stem": "mặt + ?",
+      "target": "mặt trời",
+      "correct": "trời",
+      "options": [
+        "trời",
+        "vở",
+        "kẹo"
+      ],
+      "illustration": "☀️",
+      "hint": "mặt ghép với trời thành “mặt trời”.",
+      "topic": "Ghép từ"
+    },
+    {
+      "id": "word-14",
+      "group": "words",
+      "type": "choice",
+      "prompt": "Ghép hai tiếng thành từ hoặc cụm từ phù hợp.",
+      "stem": "đèn + ?",
+      "target": "đèn lồng",
+      "correct": "lồng",
+      "options": [
+        "lồng",
+        "vịt",
+        "bút"
+      ],
+      "illustration": "🏮",
+      "hint": "đèn ghép với lồng thành “đèn lồng”.",
+      "topic": "Ghép từ"
+    },
+    {
+      "id": "word-15",
+      "group": "words",
+      "type": "choice",
+      "prompt": "Ghép hai tiếng thành từ hoặc cụm từ phù hợp.",
+      "stem": "bánh + ?",
+      "target": "bánh mì",
+      "correct": "mì",
+      "options": [
+        "mì",
+        "cây",
+        "sông"
+      ],
+      "illustration": "🥖",
+      "hint": "bánh ghép với mì thành “bánh mì”.",
+      "topic": "Ghép từ"
+    },
+    {
+      "id": "sentence-1",
+      "group": "words",
+      "type": "order",
+      "prompt": "Sắp xếp các mảnh thành câu hoàn chỉnh.",
+      "tokens": [
+        "Em",
+        "đi",
+        "học."
+      ],
+      "correct": [
+        "Em",
+        "đi",
+        "học."
+      ],
+      "target": "Em đi học.",
+      "illustration": "🎒",
+      "hint": "Câu bắt đầu bằng “Em” và kết thúc bằng “học.”.",
+      "topic": "Xếp câu"
+    },
+    {
+      "id": "sentence-2",
+      "group": "words",
+      "type": "order",
+      "prompt": "Sắp xếp các mảnh thành câu hoàn chỉnh.",
+      "tokens": [
+        "Em",
+        "yêu",
+        "gia đình."
+      ],
+      "correct": [
+        "Em",
+        "yêu",
+        "gia đình."
+      ],
+      "target": "Em yêu gia đình.",
+      "illustration": "🏠",
+      "hint": "Câu bắt đầu bằng “Em” và kết thúc bằng “gia đình.”.",
+      "topic": "Xếp câu"
+    },
+    {
+      "id": "sentence-3",
+      "group": "words",
+      "type": "order",
+      "prompt": "Sắp xếp các mảnh thành câu hoàn chỉnh.",
+      "tokens": [
+        "Bé",
+        "tưới",
+        "cây."
+      ],
+      "correct": [
+        "Bé",
+        "tưới",
+        "cây."
+      ],
+      "target": "Bé tưới cây.",
+      "illustration": "🌱",
+      "hint": "Câu bắt đầu bằng “Bé” và kết thúc bằng “cây.”.",
+      "topic": "Xếp câu"
+    },
+    {
+      "id": "sentence-4",
+      "group": "words",
+      "type": "order",
+      "prompt": "Sắp xếp các mảnh thành câu hoàn chỉnh.",
+      "tokens": [
+        "Mẹ",
+        "đọc",
+        "sách."
+      ],
+      "correct": [
+        "Mẹ",
+        "đọc",
+        "sách."
+      ],
+      "target": "Mẹ đọc sách.",
+      "illustration": "📖",
+      "hint": "Câu bắt đầu bằng “Mẹ” và kết thúc bằng “sách.”.",
+      "topic": "Xếp câu"
+    },
+    {
+      "id": "sentence-5",
+      "group": "words",
+      "type": "order",
+      "prompt": "Sắp xếp các mảnh thành câu hoàn chỉnh.",
+      "tokens": [
+        "Bố",
+        "nấu",
+        "cơm."
+      ],
+      "correct": [
+        "Bố",
+        "nấu",
+        "cơm."
+      ],
+      "target": "Bố nấu cơm.",
+      "illustration": "🍚",
+      "hint": "Câu bắt đầu bằng “Bố” và kết thúc bằng “cơm.”.",
+      "topic": "Xếp câu"
+    },
+    {
+      "id": "sentence-6",
+      "group": "words",
+      "type": "order",
+      "prompt": "Sắp xếp các mảnh thành câu hoàn chỉnh.",
+      "tokens": [
+        "Em",
+        "chào",
+        "thầy cô."
+      ],
+      "correct": [
+        "Em",
+        "chào",
+        "thầy cô."
+      ],
+      "target": "Em chào thầy cô.",
+      "illustration": "👋",
+      "hint": "Câu bắt đầu bằng “Em” và kết thúc bằng “thầy cô.”.",
+      "topic": "Xếp câu"
+    },
+    {
+      "id": "sentence-7",
+      "group": "words",
+      "type": "order",
+      "prompt": "Sắp xếp các mảnh thành câu hoàn chỉnh.",
+      "tokens": [
+        "Bạn Lan",
+        "chăm chỉ",
+        "học bài."
+      ],
+      "correct": [
+        "Bạn Lan",
+        "chăm chỉ",
+        "học bài."
+      ],
+      "target": "Bạn Lan chăm chỉ học bài.",
+      "illustration": "✏️",
+      "hint": "Câu bắt đầu bằng “Bạn Lan” và kết thúc bằng “học bài.”.",
+      "topic": "Xếp câu"
+    },
+    {
+      "id": "sentence-8",
+      "group": "words",
+      "type": "order",
+      "prompt": "Sắp xếp các mảnh thành câu hoàn chỉnh.",
+      "tokens": [
+        "Chúng em",
+        "giữ lớp",
+        "sạch đẹp."
+      ],
+      "correct": [
+        "Chúng em",
+        "giữ lớp",
+        "sạch đẹp."
+      ],
+      "target": "Chúng em giữ lớp sạch đẹp.",
+      "illustration": "🧹",
+      "hint": "Câu bắt đầu bằng “Chúng em” và kết thúc bằng “sạch đẹp.”.",
+      "topic": "Xếp câu"
+    },
+    {
+      "id": "sentence-9",
+      "group": "words",
+      "type": "order",
+      "prompt": "Sắp xếp các mảnh thành câu hoàn chỉnh.",
+      "tokens": [
+        "Em",
+        "rửa tay",
+        "trước khi ăn."
+      ],
+      "correct": [
+        "Em",
+        "rửa tay",
+        "trước khi ăn."
+      ],
+      "target": "Em rửa tay trước khi ăn.",
+      "illustration": "🧼",
+      "hint": "Câu bắt đầu bằng “Em” và kết thúc bằng “trước khi ăn.”.",
+      "topic": "Xếp câu"
+    },
+    {
+      "id": "sentence-10",
+      "group": "words",
+      "type": "order",
+      "prompt": "Sắp xếp các mảnh thành câu hoàn chỉnh.",
+      "tokens": [
+        "Cô giáo",
+        "kể chuyện",
+        "cho chúng em nghe."
+      ],
+      "correct": [
+        "Cô giáo",
+        "kể chuyện",
+        "cho chúng em nghe."
+      ],
+      "target": "Cô giáo kể chuyện cho chúng em nghe.",
+      "illustration": "📚",
+      "hint": "Câu bắt đầu bằng “Cô giáo” và kết thúc bằng “cho chúng em nghe.”.",
+      "topic": "Xếp câu"
+    },
+    {
+      "id": "sentence-11",
+      "group": "words",
+      "type": "order",
+      "prompt": "Sắp xếp các mảnh thành câu hoàn chỉnh.",
+      "tokens": [
+        "Bé",
+        "nhặt rác",
+        "bỏ vào",
+        "thùng."
+      ],
+      "correct": [
+        "Bé",
+        "nhặt rác",
+        "bỏ vào",
+        "thùng."
+      ],
+      "target": "Bé nhặt rác bỏ vào thùng.",
+      "illustration": "🗑️",
+      "hint": "Câu bắt đầu bằng “Bé” và kết thúc bằng “thùng.”.",
+      "topic": "Xếp câu"
+    },
+    {
+      "id": "sentence-12",
+      "group": "words",
+      "type": "order",
+      "prompt": "Sắp xếp các mảnh thành câu hoàn chỉnh.",
+      "tokens": [
+        "Cây",
+        "trong vườn",
+        "xanh tốt."
+      ],
+      "correct": [
+        "Cây",
+        "trong vườn",
+        "xanh tốt."
+      ],
+      "target": "Cây trong vườn xanh tốt.",
+      "illustration": "🌳",
+      "hint": "Câu bắt đầu bằng “Cây” và kết thúc bằng “xanh tốt.”.",
+      "topic": "Xếp câu"
+    },
+    {
+      "id": "sentence-13",
+      "group": "words",
+      "type": "order",
+      "prompt": "Sắp xếp các mảnh thành câu hoàn chỉnh.",
+      "tokens": [
+        "Em",
+        "giúp mẹ",
+        "quét nhà."
+      ],
+      "correct": [
+        "Em",
+        "giúp mẹ",
+        "quét nhà."
+      ],
+      "target": "Em giúp mẹ quét nhà.",
+      "illustration": "🧹",
+      "hint": "Câu bắt đầu bằng “Em” và kết thúc bằng “quét nhà.”.",
+      "topic": "Xếp câu"
+    },
+    {
+      "id": "sentence-14",
+      "group": "words",
+      "type": "order",
+      "prompt": "Sắp xếp các mảnh thành câu hoàn chỉnh.",
+      "tokens": [
+        "Buổi sáng,",
+        "em",
+        "đánh răng."
+      ],
+      "correct": [
+        "Buổi sáng,",
+        "em",
+        "đánh răng."
+      ],
+      "target": "Buổi sáng, em đánh răng.",
+      "illustration": "🪥",
+      "hint": "Câu bắt đầu bằng “Buổi sáng,” và kết thúc bằng “đánh răng.”.",
+      "topic": "Xếp câu"
+    },
+    {
+      "id": "sentence-15",
+      "group": "words",
+      "type": "order",
+      "prompt": "Sắp xếp các mảnh thành câu hoàn chỉnh.",
+      "tokens": [
+        "Các bạn",
+        "cùng chơi",
+        "nhảy dây."
+      ],
+      "correct": [
+        "Các bạn",
+        "cùng chơi",
+        "nhảy dây."
+      ],
+      "target": "Các bạn cùng chơi nhảy dây.",
+      "illustration": "🧒",
+      "hint": "Câu bắt đầu bằng “Các bạn” và kết thúc bằng “nhảy dây.”.",
+      "topic": "Xếp câu"
+    },
+    {
+      "id": "match-1",
+      "group": "words",
+      "type": "match",
+      "prompt": "Nối mỗi từ với đúng hình.",
+      "topic": "Con vật",
+      "pairs": [
+        {
+          "id": "pair-0",
+          "word": "con mèo",
+          "picture": "🐱"
+        },
+        {
+          "id": "pair-1",
+          "word": "con chó",
+          "picture": "🐶"
+        },
+        {
+          "id": "pair-2",
+          "word": "con thỏ",
+          "picture": "🐰"
+        },
+        {
+          "id": "pair-3",
+          "word": "con ếch",
+          "picture": "🐸"
+        }
+      ],
+      "target": "con mèo, con chó, con thỏ, con ếch",
+      "hint": "Ví dụ: 🐱 là con mèo. Chọn từ bên trái rồi chọn hình bên phải."
+    },
+    {
+      "id": "match-2",
+      "group": "words",
+      "type": "match",
+      "prompt": "Nối mỗi từ với đúng hình.",
+      "topic": "Đồ dùng học tập",
+      "pairs": [
+        {
+          "id": "pair-0",
+          "word": "bút chì",
+          "picture": "✏️"
+        },
+        {
+          "id": "pair-1",
+          "word": "quyển sách",
+          "picture": "📖"
+        },
+        {
+          "id": "pair-2",
+          "word": "thước kẻ",
+          "picture": "📏"
+        },
+        {
+          "id": "pair-3",
+          "word": "cặp sách",
+          "picture": "🎒"
+        }
+      ],
+      "target": "bút chì, quyển sách, thước kẻ, cặp sách",
+      "hint": "Ví dụ: ✏️ là bút chì. Chọn từ bên trái rồi chọn hình bên phải."
+    },
+    {
+      "id": "match-3",
+      "group": "words",
+      "type": "match",
+      "prompt": "Nối mỗi từ với đúng hình.",
+      "topic": "Trái cây",
+      "pairs": [
+        {
+          "id": "pair-0",
+          "word": "quả táo",
+          "picture": "🍎"
+        },
+        {
+          "id": "pair-1",
+          "word": "quả chuối",
+          "picture": "🍌"
+        },
+        {
+          "id": "pair-2",
+          "word": "quả cam",
+          "picture": "🍊"
+        },
+        {
+          "id": "pair-3",
+          "word": "dưa hấu",
+          "picture": "🍉"
+        }
+      ],
+      "target": "quả táo, quả chuối, quả cam, dưa hấu",
+      "hint": "Ví dụ: 🍎 là quả táo. Chọn từ bên trái rồi chọn hình bên phải."
+    },
+    {
+      "id": "match-4",
+      "group": "words",
+      "type": "match",
+      "prompt": "Nối mỗi từ với đúng hình.",
+      "topic": "Bầu trời",
+      "pairs": [
+        {
+          "id": "pair-0",
+          "word": "cơn mưa",
+          "picture": "🌧️"
+        },
+        {
+          "id": "pair-1",
+          "word": "mặt trời",
+          "picture": "☀️"
+        },
+        {
+          "id": "pair-2",
+          "word": "đám mây",
+          "picture": "☁️"
+        },
+        {
+          "id": "pair-3",
+          "word": "cầu vồng",
+          "picture": "🌈"
+        }
+      ],
+      "target": "cơn mưa, mặt trời, đám mây, cầu vồng",
+      "hint": "Ví dụ: 🌧️ là cơn mưa. Chọn từ bên trái rồi chọn hình bên phải."
+    },
+    {
+      "id": "match-5",
+      "group": "words",
+      "type": "match",
+      "prompt": "Nối mỗi từ với đúng hình.",
+      "topic": "Phương tiện",
+      "pairs": [
+        {
+          "id": "pair-0",
+          "word": "ô tô",
+          "picture": "🚗"
+        },
+        {
+          "id": "pair-1",
+          "word": "xe đạp",
+          "picture": "🚲"
+        },
+        {
+          "id": "pair-2",
+          "word": "tàu thủy",
+          "picture": "🚢"
+        },
+        {
+          "id": "pair-3",
+          "word": "máy bay",
+          "picture": "✈️"
+        }
+      ],
+      "target": "ô tô, xe đạp, tàu thủy, máy bay",
+      "hint": "Ví dụ: 🚗 là ô tô. Chọn từ bên trái rồi chọn hình bên phải."
+    },
+    {
+      "id": "match-6",
+      "group": "words",
+      "type": "match",
+      "prompt": "Nối mỗi từ với đúng hình.",
+      "topic": "Thiên nhiên",
+      "pairs": [
+        {
+          "id": "pair-0",
+          "word": "cây xanh",
+          "picture": "🌳"
+        },
+        {
+          "id": "pair-1",
+          "word": "chiếc lá",
+          "picture": "🍃"
+        },
+        {
+          "id": "pair-2",
+          "word": "bông hoa",
+          "picture": "🌼"
+        },
+        {
+          "id": "pair-3",
+          "word": "ngọn núi",
+          "picture": "⛰️"
+        }
+      ],
+      "target": "cây xanh, chiếc lá, bông hoa, ngọn núi",
+      "hint": "Ví dụ: 🌳 là cây xanh. Chọn từ bên trái rồi chọn hình bên phải."
+    },
+    {
+      "id": "match-7",
+      "group": "words",
+      "type": "match",
+      "prompt": "Nối mỗi từ với đúng hình.",
+      "topic": "Cơ thể",
+      "pairs": [
+        {
+          "id": "pair-0",
+          "word": "bàn tay",
+          "picture": "🖐️"
+        },
+        {
+          "id": "pair-1",
+          "word": "cái tai",
+          "picture": "👂"
+        },
+        {
+          "id": "pair-2",
+          "word": "con mắt",
+          "picture": "👁️"
+        },
+        {
+          "id": "pair-3",
+          "word": "cái mũi",
+          "picture": "👃"
+        }
+      ],
+      "target": "bàn tay, cái tai, con mắt, cái mũi",
+      "hint": "Ví dụ: 🖐️ là bàn tay. Chọn từ bên trái rồi chọn hình bên phải."
+    },
+    {
+      "id": "match-8",
+      "group": "words",
+      "type": "match",
+      "prompt": "Nối mỗi từ với đúng hình.",
+      "topic": "Thức ăn",
+      "pairs": [
+        {
+          "id": "pair-0",
+          "word": "bánh mì",
+          "picture": "🥖"
+        },
+        {
+          "id": "pair-1",
+          "word": "bát cơm",
+          "picture": "🍚"
+        },
+        {
+          "id": "pair-2",
+          "word": "quả trứng",
+          "picture": "🥚"
+        },
+        {
+          "id": "pair-3",
+          "word": "cốc sữa",
+          "picture": "🥛"
+        }
+      ],
+      "target": "bánh mì, bát cơm, quả trứng, cốc sữa",
+      "hint": "Ví dụ: 🥖 là bánh mì. Chọn từ bên trái rồi chọn hình bên phải."
+    },
+    {
+      "id": "match-9",
+      "group": "words",
+      "type": "match",
+      "prompt": "Nối mỗi từ với đúng hình.",
+      "topic": "Âm nhạc",
+      "pairs": [
+        {
+          "id": "pair-0",
+          "word": "cái trống",
+          "picture": "🥁"
+        },
+        {
+          "id": "pair-1",
+          "word": "đàn ghi ta",
+          "picture": "🎸"
+        },
+        {
+          "id": "pair-2",
+          "word": "cái kèn",
+          "picture": "🎺"
+        },
+        {
+          "id": "pair-3",
+          "word": "nốt nhạc",
+          "picture": "🎵"
+        }
+      ],
+      "target": "cái trống, đàn ghi ta, cái kèn, nốt nhạc",
+      "hint": "Ví dụ: 🥁 là cái trống. Chọn từ bên trái rồi chọn hình bên phải."
+    },
+    {
+      "id": "match-10",
+      "group": "words",
+      "type": "match",
+      "prompt": "Nối mỗi từ với đúng hình.",
+      "topic": "Vui chơi",
+      "pairs": [
+        {
+          "id": "pair-0",
+          "word": "bóng đá",
+          "picture": "⚽"
+        },
+        {
+          "id": "pair-1",
+          "word": "cầu lông",
+          "picture": "🏸"
+        },
+        {
+          "id": "pair-2",
+          "word": "bóng rổ",
+          "picture": "🏀"
+        },
+        {
+          "id": "pair-3",
+          "word": "cánh diều",
+          "picture": "🪁"
+        }
+      ],
+      "target": "bóng đá, cầu lông, bóng rổ, cánh diều",
+      "hint": "Ví dụ: ⚽ là bóng đá. Chọn từ bên trái rồi chọn hình bên phải."
+    }
+  ]
+}

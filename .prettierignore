@@ -1,0 +1,9 @@
+node_modules
+dist
+release
+.cache
+playwright-report
+test-results
+package-lock.json
+docs/hoc-lieu.json
+public/fonts

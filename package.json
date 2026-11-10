@@ -1,0 +1,78 @@
+{
+  "name": "byte-odyssey",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Bốn trò chơi luyện nhận diện chữ tiếng Việt cho học sinh lớp 2",
+  "author": "hpb282",
+  "license": "UNLICENSED",
+  "type": "module",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "format": "prettier --write src scripts electron tests *.ts *.json .github/workflows/*.yml",
+    "format:check": "prettier --check src scripts electron tests *.ts *.json .github/workflows/*.yml",
+    "dev": "vite --host 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "build": "npm run typecheck && vite build && node scripts/build-offline.mjs",
+    "preview": "vite preview --host 0.0.0.0 --port 4173",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "install:desktop": "install-electron",
+    "desktop": "npm run install:desktop && npm run build && electron .",
+    "dist:win": "npm run build && electron-builder --win nsis portable --x64",
+    "dist:dir": "npm run build && electron-builder --dir"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.0",
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.3.0",
+    "electron": "45.2.3",
+    "electron-builder": "26.18.0",
+    "prettier": "3.9.10",
+    "typescript": "7.0.2",
+    "vite": "8.3.7",
+    "vitest": "5.1.0"
+  },
+  "build": {
+    "appId": "io.github.hpb282.byteodyssey",
+    "productName": "Byte Odyssey",
+    "asar": true,
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "assets/branding/*",
+      "package.json"
+    ],
+    "win": {
+      "icon": "assets/branding/byte-odyssey-icon.ico",
+      "artifactName": "Byte-Odyssey-${version}-${arch}.${ext}"
+    },
+    "nsis": {
+      "artifactName": "Byte-Odyssey-${version}-Setup-${arch}.${ext}",
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Byte Odyssey",
+      "installerIcon": "assets/branding/byte-odyssey-icon.ico",
+      "uninstallerIcon": "assets/branding/byte-odyssey-icon.ico"
+    },
+    "portable": {
+      "artifactName": "Byte-Odyssey-${version}-Portable-${arch}.${ext}"
+    },
+    "linux": {
+      "icon": "assets/branding/byte-odyssey-icon-256.png",
+      "category": "Education",
+      "target": "AppImage"
+    }
+  }
+}

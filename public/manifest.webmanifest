@@ -1,0 +1,15 @@
+{
+  "id": "./",
+  "name": "Byte Odyssey — Khám phá thế giới chữ",
+  "short_name": "Byte Odyssey",
+  "lang": "vi",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#8cddf5",
+  "theme_color": "#102d50",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
