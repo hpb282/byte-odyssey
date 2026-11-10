@@ -1,4 +1,4 @@
-# Kiểm tra phiên bản 0.1.0
+# Kiểm tra phiên bản 0.1.1
 
 Các kiểm tra đã thực hiện trong môi trường phát triển Linux:
 

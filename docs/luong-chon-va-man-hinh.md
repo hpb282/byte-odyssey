@@ -1,6 +1,6 @@
 # Màn hình chính và luồng chọn trước khi chơi
 
-Luồng này đã được triển khai trong phiên bản 0.1.0. Các ảnh bên dưới là
+Luồng này đã được triển khai trong phiên bản 0.1.1. Các ảnh bên dưới là
 phác thảo đã duyệt trước khi viết mã; xem [README](../README.md) và
 [src/App.tsx](../src/App.tsx) cho phiên bản chạy được.
 

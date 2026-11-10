@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import type { Dispatch, SetStateAction } from 'react';
+import { version as APP_VERSION } from '../../package.json';
 import { CHARACTERS, GAMES, GROUPS, characterById, gameById, groupById, mapById } from '../catalog';
 import { accuracy, practiceItems } from '../engine';
 import { QUESTIONS } from '../questions';
@@ -491,7 +492,7 @@ export function SettingsPanel({
         </p>
       </div>
       <p className="small-text">
-        Byte Odyssey · phiên bản 0.1.0 · {GAMES.length} game · {CHARACTERS.length} nhân vật · 23 map
+        Byte Odyssey · phiên bản {APP_VERSION} · {GAMES.length} game · {CHARACTERS.length} nhân vật · 23 map
       </p>
     </>
   );

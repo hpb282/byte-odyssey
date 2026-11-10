@@ -8,9 +8,9 @@
 
 Vào [Releases](https://github.com/hpb282/byte-odyssey/releases) và chọn bản phát hành đã build thành công:
 
-- `Byte-Odyssey-0.1.0-Setup-x64.exe`: bộ cài Windows, có icon Robot Byte và lối tắt trên Desktop/Start Menu.
-- `Byte-Odyssey-0.1.0-Portable-x64.exe`: mở và chơi không cần cài đặt.
-- `Byte-Odyssey-0.1.0-Web.zip`: bản web để đưa lên máy chủ tĩnh.
+- `Byte-Odyssey-0.1.1-Setup-x64.exe`: bộ cài Windows, có icon Robot Byte và lối tắt trên Desktop/Start Menu.
+- `Byte-Odyssey-0.1.1-Portable-x64.exe`: mở và chơi không cần cài đặt.
+- `Byte-Odyssey-0.1.1-Web.zip`: bản web để đưa lên máy chủ tĩnh.
 
 Bản desktop dành cho **Windows 10/11 64-bit** và chơi được khi không có Internet. Tệp **Source code (zip)** của GitHub là mã nguồn để phát triển, không phải bộ cài. Các bản hiện tại chưa ký số bằng chứng chỉ nhà phát hành; bản phát hành có file `SHA256SUMS.txt` để đối chiếu tệp tải về.
 
@@ -108,7 +108,7 @@ node scripts/smoke-desktop.mjs
 
 [GitHub Actions](https://github.com/hpb282/byte-odyssey/actions) kiểm tra luật chơi, học liệu, hồ sơ, build và chơi thật trên trình duyệt. Job Windows đóng gói bộ cài + portable, chạy thử ứng dụng đã đóng gói và tạo mã SHA-256.
 
-Push tag trùng phiên bản trong `package.json`, ví dụ `v0.1.0`, để workflow tạo GitHub Release và đính kèm các tệp tải. Nếu job chưa hoàn thành, xem Artifacts/nhật ký trong Actions; chưa có tệp phát hành cho đến khi job Windows thành công.
+Push tag trùng phiên bản trong `package.json`, ví dụ `v0.1.1`, để workflow tạo GitHub Release và đính kèm các tệp tải. Nếu job chưa hoàn thành, xem Artifacts/nhật ký trong Actions; chưa có tệp phát hành cho đến khi job Windows thành công.
 
 ## Học liệu và tài liệu
 
@@ -117,5 +117,6 @@ Push tag trùng phiên bản trong `package.json`, ví dụ `v0.1.0`, để work
 - [Luồng giao diện đã duyệt](docs/luong-chon-va-man-hinh.md) và [thiết kế dự án](docs/thiet-ke-game.md).
 - [Kiến trúc và lưu dữ liệu](docs/kien-truc.md) · [Nguồn tài nguyên](docs/nguon-tai-nguyen.md).
 - [Phạm vi và kết quả kiểm thử](docs/kiem-thu.md).
+- [Cài đặt và khởi động môi trường cloud](docs/moi-truong-cloud.md).
 
 Đây là học liệu tự biên soạn, không phải trích nguyên bài đọc từ sách giáo khoa hay công cụ chứng nhận năng lực. Giáo viên có thể xem trước để chọn nội dung phù hợp với lớp.

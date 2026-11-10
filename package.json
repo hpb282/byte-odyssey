@@ -1,6 +1,6 @@
 {
   "name": "byte-odyssey",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Bốn trò chơi luyện nhận diện chữ tiếng Việt cho học sinh lớp 2",
   "author": "hpb282",
@@ -18,8 +18,8 @@
     "test:e2e": "playwright test",
     "install:desktop": "install-electron",
     "desktop": "npm run install:desktop && npm run build && electron .",
-    "dist:win": "npm run build && electron-builder --win nsis portable --x64",
-    "dist:dir": "npm run build && electron-builder --dir"
+    "dist:win": "npm run build && electron-builder --win nsis portable --x64 --publish never",
+    "dist:dir": "npm run build && electron-builder --dir --publish never"
   },
   "dependencies": {
     "react": "19.3.1",

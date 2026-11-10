@@ -1,4 +1,4 @@
-# Kiến trúc phiên bản 0.1.0
+# Kiến trúc phiên bản 0.1.1
 
 ## Thành phần
 

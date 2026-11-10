@@ -1,7 +1,7 @@
 # Icon ứng dụng Byte Odyssey
 
 Trạng thái: icon đã được sử dụng trong ứng dụng web, cửa sổ Electron và
-cấu hình đóng gói bộ cài/lối tắt Windows của phiên bản 0.1.0.
+cấu hình đóng gói bộ cài/lối tắt Windows của phiên bản 0.1.1.
 
 ![Icon ứng dụng Byte Odyssey](../assets/branding/byte-odyssey-icon-256.png)
 

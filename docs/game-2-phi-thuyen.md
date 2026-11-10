@@ -1,6 +1,6 @@
 # Game 2 — Phi thuyền không gian
 
-Trạng thái: game đã được triển khai trong phiên bản 0.1.0 theo thiết kế
+Trạng thái: game đã được triển khai trong phiên bản 0.1.1 theo thiết kế
 dưới đây. Ảnh là phác thảo tham chiếu, không phải ảnh chụp runtime.
 
 ![Phác thảo màn chơi Phi thuyền không gian](assets/game-2-gameplay-concept.png)

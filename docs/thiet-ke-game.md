@@ -2,7 +2,7 @@
 
 ## Trạng thái triển khai
 
-Đã xây dựng phiên bản 0.1.0 bằng React, TypeScript và Canvas: đủ 4 game,
+Đã xây dựng phiên bản 0.1.1 bằng React, TypeScript và Canvas: đủ 4 game,
 10 nhân vật, 23 map, 120 bài tự biên soạn, luồng chọn đã duyệt, hồ sơ,
 thống kê, sao lưu và phục hồi lượt đang chơi. Có vỏ ứng dụng Electron,
 icon, cấu hình bộ cài Windows và workflow GitHub Actions tạo bản phát hành.
@@ -156,4 +156,4 @@ khi thiết kế phần kỹ thuật.
 - Giáo viên rà soát và bổ sung ngữ liệu theo hoạt động thực tế của lớp.
 - Tiếp tục tinh chỉnh đồ họa và hoạt ảnh từ phản hồi chơi thử.
 - Đồng bộ hồ sơ giữa thiết bị hoặc âm thanh nghe mẫu là những mở rộng chưa
-  thuộc bản 0.1.0; bản hiện tại lưu tại máy và có sao lưu/chuyển máy bằng JSON.
+  thuộc bản 0.1.1; bản hiện tại lưu tại máy và có sao lưu/chuyển máy bằng JSON.

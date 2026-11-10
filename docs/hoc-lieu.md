@@ -1,4 +1,4 @@
-# Học liệu tiếng Việt cho Byte Odyssey 0.1.0
+# Học liệu tiếng Việt cho Byte Odyssey 0.1.1
 
 120 bài tự biên soạn cho hoạt động nhận diện chữ, đọc từ quen thuộc và sắp
 xếp câu ngắn ở lớp 2. Các chủ đề gồm trường học, gia đình, con vật, thiên

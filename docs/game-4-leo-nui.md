@@ -1,6 +1,6 @@
 # Game 4 — Leo núi tìm sao
 
-Trạng thái: game đã được triển khai trong phiên bản 0.1.0 theo thiết kế
+Trạng thái: game đã được triển khai trong phiên bản 0.1.1 theo thiết kế
 dưới đây. Ảnh là phác thảo tham chiếu, không phải ảnh chụp runtime.
 
 ![Phác thảo màn chơi Leo núi tìm sao](assets/game-4-gameplay-concept.png)

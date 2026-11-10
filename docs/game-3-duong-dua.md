@@ -1,6 +1,6 @@
 # Game 3 — Đường đua kỳ thú
 
-Trạng thái: game đã được triển khai trong phiên bản 0.1.0 theo thiết kế
+Trạng thái: game đã được triển khai trong phiên bản 0.1.1 theo thiết kế
 dưới đây. Ảnh là phác thảo tham chiếu, không phải ảnh chụp runtime.
 
 ![Phác thảo màn chơi Đường đua kỳ thú](assets/game-3-gameplay-concept.png)
