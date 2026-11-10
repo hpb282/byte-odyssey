@@ -1,6 +1,6 @@
 {
   "name": "byte-odyssey",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "private": true,
   "description": "Bốn trò chơi luyện nhận diện chữ tiếng Việt cho học sinh lớp 2",
   "author": "hpb282",
@@ -22,6 +22,7 @@
     "dist:dir": "npm run build && electron-builder --dir --publish never"
   },
   "dependencies": {
+    "electron-updater": "6.8.11",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },
@@ -42,6 +43,17 @@
     "appId": "io.github.hpb282.byteodyssey",
     "productName": "Byte Odyssey",
     "asar": true,
+    "releaseInfo": {
+      "releaseNotesFile": "docs/release-notes.md"
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "hpb282",
+        "repo": "byte-odyssey",
+        "releaseType": "release"
+      }
+    ],
     "directories": {
       "output": "release"
     },

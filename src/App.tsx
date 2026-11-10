@@ -21,9 +21,11 @@ import { Modal } from './components/Modal';
 import { QuestionPanel } from './components/QuestionPanel';
 import { HelpPanel, HistoryPanel, ProfilesPanel, SettingsPanel } from './components/Panels';
 import type { Answer, Round, Selection } from './types';
+import type { UpdateState } from './updates';
+import { UpdatePanel } from './components/UpdatePanel';
 
 type Screen = 'home' | 'content' | 'game' | 'character' | 'map' | 'play' | 'result';
-type Dialog = 'profiles' | 'settings' | 'help' | 'history' | 'pause' | 'exit' | 'new-round' | null;
+type Dialog = 'profiles' | 'settings' | 'help' | 'history' | 'pause' | 'exit' | 'new-round' | 'update' | null;
 const stages: Screen[] = ['content', 'game', 'character', 'map'];
 const titles = {
   content: 'Chọn nội dung luyện tập',
@@ -34,6 +36,9 @@ const titles = {
 
 export default function App() {
   const [initial] = useState(() => loadSave());
+  const [update, setUpdate] = useState<UpdateState | null>(null);
+  const deferredUpdates = useRef(false);
+  const installAfterDownload = useRef(false);
   const [data, setData] = useState(initial.data),
     [notice, setNotice] = useState(initial.warning),
     [storageIssue, setStorageIssue] = useState('');
@@ -53,6 +58,27 @@ export default function App() {
   const index = stages.indexOf(screen),
     setup = index >= 0;
 
+  useEffect(() => {
+    const bridge = window.byteUpdates;
+    if (!bridge) return;
+    let live = true;
+    const receive = (state: UpdateState) => {
+      if (live) setUpdate(state);
+    };
+    const unsubscribe = bridge.subscribe(receive);
+    void bridge
+      .getState()
+      .then(receive)
+      .catch(() => setNotice('Chưa đọc được thông tin cập nhật. Hãy mở lại ứng dụng.'));
+    return () => {
+      live = false;
+      unsubscribe();
+    };
+  }, []);
+  useEffect(() => {
+    if (update?.status === 'available' && !deferredUpdates.current && screen !== 'play' && !dialog)
+      setDialog('update');
+  }, [update, screen, dialog]);
   useEffect(() => {
     const error = writeSave(data);
     setStorageIssue(error);
@@ -104,9 +130,43 @@ export default function App() {
   }, []);
 
   const closeDialog = () => {
+    if (dialog === 'update') {
+      deferredUpdates.current = true;
+      installAfterDownload.current = false;
+    }
     setDialog(null);
     setPendingStart(false);
   };
+  const updateAction = async (type: 'check' | 'download' | 'release') => {
+    try {
+      if (!window.byteUpdates) return;
+      if (type === 'release') {
+        await window.byteUpdates.openRelease();
+        return;
+      }
+      if (type === 'download') installAfterDownload.current = true;
+      setUpdate(await window.byteUpdates[type]());
+    } catch {
+      setNotice('Chưa thực hiện được cập nhật. Hãy thử lại.');
+    }
+  };
+  const installUpdate = async () => {
+    installAfterDownload.current = false;
+    const error = writeSave(data) || saveActive(active);
+    if (error) {
+      setNotice(error);
+      return;
+    }
+    try {
+      if (!(await window.byteUpdates?.install())) setNotice('Chưa cài được bản mới. Hãy thử lại.');
+    } catch {
+      setNotice('Chưa cài được bản mới. Hãy thử lại.');
+    }
+  };
+  useEffect(() => {
+    if (update?.status === 'downloaded' && dialog === 'update' && installAfterDownload.current)
+      void installUpdate();
+  }, [update?.status, dialog]);
   const setupStart = () => {
     setSelection({});
     setScreen('content');
@@ -663,6 +723,27 @@ export default function App() {
       {dialog === 'settings' && (
         <Modal title="Cài đặt" onClose={closeDialog}>
           <SettingsPanel data={data} onChange={setData} />
+          {window.byteUpdates && (
+            <button className="button cream" onClick={() => setDialog('update')}>
+              Cập nhật ứng dụng
+            </button>
+          )}
+        </Modal>
+      )}
+      {dialog === 'update' && (
+        <Modal title="Cập nhật Byte Odyssey" onClose={closeDialog}>
+          <UpdatePanel
+            state={update}
+            action={(type) => {
+              void updateAction(type);
+            }}
+            install={() => {
+              void installUpdate();
+            }}
+          />
+          <button className="button cream" onClick={closeDialog}>
+            Để sau
+          </button>
         </Modal>
       )}
       {dialog === 'help' && (

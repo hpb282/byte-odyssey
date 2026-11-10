@@ -2460,3 +2460,17 @@ td {
     padding: 8px 10px;
   }
 }
+/* Desktop updates share the accessible modal and button styles. */
+.update-panel {
+  display: grid;
+  gap: 12px;
+}
+.update-panel progress {
+  width: 100%;
+}
+.release-notes {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  max-height: 240px;
+  overflow-y: auto;
+}

@@ -8,9 +8,9 @@
 
 Vào [Releases](https://github.com/hpb282/byte-odyssey/releases) và chọn bản phát hành đã build thành công:
 
-- `Byte-Odyssey-0.1.1-Setup-x64.exe`: bộ cài Windows, có icon Robot Byte và lối tắt trên Desktop/Start Menu.
-- `Byte-Odyssey-0.1.1-Portable-x64.exe`: mở và chơi không cần cài đặt.
-- `Byte-Odyssey-0.1.1-Web.zip`: bản web để đưa lên máy chủ tĩnh.
+- `Byte-Odyssey-0.2.0-Setup-x64.exe`: bộ cài Windows, có icon Robot Byte và lối tắt trên Desktop/Start Menu.
+- `Byte-Odyssey-0.2.0-Portable-x64.exe`: mở và chơi không cần cài đặt.
+- `Byte-Odyssey-0.2.0-Web.zip`: bản web để đưa lên máy chủ tĩnh.
 
 Bản desktop dành cho **Windows 10/11 64-bit** và chơi được khi không có Internet. Tệp **Source code (zip)** của GitHub là mã nguồn để phát triển, không phải bộ cài. Các bản hiện tại chưa ký số bằng chứng chỉ nhà phát hành; bản phát hành có file `SHA256SUMS.txt` để đối chiếu tệp tải về.
 
@@ -108,7 +108,11 @@ node scripts/smoke-desktop.mjs
 
 [GitHub Actions](https://github.com/hpb282/byte-odyssey/actions) kiểm tra luật chơi, học liệu, hồ sơ, build và chơi thật trên trình duyệt. Job Windows đóng gói bộ cài + portable, chạy thử ứng dụng đã đóng gói và tạo mã SHA-256.
 
-Push tag trùng phiên bản trong `package.json`, ví dụ `v0.1.1`, để workflow tạo GitHub Release và đính kèm các tệp tải. Nếu job chưa hoàn thành, xem Artifacts/nhật ký trong Actions; chưa có tệp phát hành cho đến khi job Windows thành công.
+Push tag trùng phiên bản trong `package.json`, ví dụ `v0.2.0`, để workflow tạo GitHub Release và đính kèm các tệp tải. Nếu job chưa hoàn thành, xem Artifacts/nhật ký trong Actions; chưa có tệp phát hành cho đến khi job Windows thành công.
+
+## Cập nhật trong app
+
+Từ bản Setup 0.2.0, app tự thông báo khi có bản mới và có Internet. Bấm **Cập nhật ngay** để tải, lưu hồ sơ, cài và mở lại; **Để sau** để tiếp tục dùng bản hiện tại. Kiểm tra thủ công tại **Cài đặt → Cập nhật ứng dụng**. Người đang dùng 0.1.x cần tải và cài Setup 0.2.0 một lần. Portable có nút mở trang tải thủ công. Xem [hướng dẫn cập nhật và phát hành](docs/cap-nhat-ung-dung.md).
 
 ## Học liệu và tài liệu
 
